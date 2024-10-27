@@ -1,0 +1,74 @@
+#container {
+  text-align: center;
+
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 47%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+#container #carga {
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: fit-content;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+#container .login img {
+  width: 120%;
+  height: 120%;
+}
+
+.sombra-circular {
+  content: '';
+  width: 60%;  
+  height: 20px;  
+  background: rgba(0, 0, 0, 0.3);  
+  border-radius: 50%;
+  position: relative;
+  bottom: 65%;  
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0; 
+}
+
+.auto {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  z-index: 10;
+}
+
+.carretera {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 5;
+}
+
+.botones{
+  padding-bottom: 100px;
+}

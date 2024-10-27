@@ -1,0 +1,22 @@
+ion-content {
+    --background: linear-gradient(135deg, #b9bbff, #8f94fb) no-repeat center center/cover;
+}
+
+
+#container ion-card ion-card-header h1 {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+#container ion-card ion-card-content ion-list ion-item {
+    --border-width: 0;
+    --border-color: white;
+    
+
+    ion-label {
+        text-align: start;
+    }
+    ion-input{
+        text-align: center;
+    }
+}

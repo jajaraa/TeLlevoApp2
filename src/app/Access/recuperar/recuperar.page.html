@@ -1,0 +1,32 @@
+<ion-content class="tellevo-background">
+  <div class="recovery-container">
+    <div class="content-wrapper">
+      <div class="logo-container">
+        <img src="assets/img/logo-tllevo.png" alt="Tellevo Logo" class="tellevo-logo">
+        <div class="sombra-circular"></div>
+      </div>
+      <div class="sombra-texto">
+      <h1>¿Olvidaste tu contraseña?</h1>
+      <p>No te preocupes, te ayudaremos a recuperarla</p>
+    </div>
+      <div class="form-container">
+        <ion-item lines="none" class="custom-input">
+          <ion-label position="floating">Nombre de Usuario</ion-label>
+          <ion-input [(ngModel)]="username" type="text" required></ion-input>
+        </ion-item>
+        <ion-button expand="block" (click)="recuperarContrasena()" class="recovery-button">
+          <ion-icon name="key-outline" slot="start"></ion-icon>
+          RECUPERAR
+        </ion-button>
+      </div>
+    </div>
+  </div>
+  <div class="contenedor">
+    <img class="auto" src="assets/img/auto.png" alt="Auto">
+    <div class="carretera-container">
+      <img class="carretera" src="assets/img/carretera.png" alt="Carretera">
+      <img class="carretera" src="assets/img/carretera.png" alt="Carretera">
+    </div>
+  </div>
+  
+</ion-content>

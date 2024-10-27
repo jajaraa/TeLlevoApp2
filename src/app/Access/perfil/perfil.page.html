@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Perfil</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>
+          <div class="login">
+            <img src="./assets/img/logo-tllevo.png" alt="">
+            <div class="sombra-circular"></div>
+          </div>
+          <h1>Bienvenido/a {{user.firstname}} {{user.lastname}}</h1>
+        </ion-card-title>
+        </ion-card-header>
+        </ion-card>
+        </div>
+        <div class="contenedor">
+          <img class="auto" src="assets/img/auto.png" alt="Auto">
+          <div class="carretera-container">
+            <img class="carretera" src="assets/img/carretera.png" alt="Carretera">
+            <img class="carretera" src="assets/img/carretera.png" alt="Carretera">
+          </div>
+        </div>
+</ion-content>
